@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: white;
+    background-color: black;
+    
+}
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right ,black , gray );
+    
+}
+.nav-link{
+    font-weight: 600;
+    color: #ffff !important;
+    font-size: 18px;
+    margin-right: 10px;
+}
+#icon{
+    height: 30px;
+    width: 70px;
+}
+#insta{
+    margin-left: 50px;
+}
+/* #tweter{
+     margin-left: 10px;
+} */
+.ic_img{
+    height: 30px;
+    width: 30px;
+}
+.wave{
+    width: 100%;
+}
+/*-----home------*/
+p{
+    color: #ffff;
+    font-weight: 600;
+}
+#banner{
+    background-image: linear-gradient(to right,black , black);
+}
+#photo{
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.pro{
+    border-left: 3px red solid;
+    margin-top: 50px;
+    border-bottom: 3px white solid;
+    margin-right: 80px;
+
+}
+#tag1{
+    margin-top: 100px;
+    
+}
+.tag{
+    border-radius: 20%;
+    /* color: green; */
+    background-color: rgba(32, 202, 41, 0.849);
+    display: block;
+    
+}
+.quote{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+.fa{
+    margin-top: 20px;
+    /* font-size: 50px; */
+    height: 100px;
+    width: 200px;
+    /* text-align: center; */
+    padding: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #dd89dd, #8908d4);
+    display: inline-block;
+}
+.fa1{
+    display: inline-block;
+}
+#fa2{
+    font-size: 50px;
+}
+
+/* About section */
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    color: blanchedalmond;
+    margin-bottom: 40px;
+}
+.heading::before{
+    content: '';
+    background-color: rgb(223, 221, 221);
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translatey(63px);
+}
+.heading::after{
+    content: '';
+    background-color: #3cec19;
+    height: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  /*  margin-bottom: 40px;*/
+    display: block;
+    transform: translatey(8px);
+}
+.card{
+    background-color: rgb(44, 36, 36);
+}
+/* About section part 2 */
+.about_he{
+    color: blanchedalmond;
+    /* text-align: center; */
+    margin-top: 100px;
+    color: rgba(32, 202, 41, 0.849);
+    font-family:"Courier New", Courier, monospace ;
+    margin-left: 20px;
+}
+.about_h1{
+    margin-top: 20px;
+    font-family:"Courier New", Courier, monospace ;
+    margin-left: 20px;
+}
+.about_h3{
+    margin-top: 10px;
+    font-family:"Courier New", Courier, monospace ;
+    margin-left: 20px;
+}
+.about_p{
+    margin-top: 30px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.cd_h{
+    color: rgba(32, 202, 41, 0.849);
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    
+}
+/* Work Section */
+.cd_img{
+    width: 285px;
+    height: 200px;
+}
+.card_btn{
+    /* color: rgba(32, 202, 41, 0.849); */
+    background-color: rgba(32, 202, 41, 0.849);
+}
+
+/* Footer section */
+.foot{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(88, 82, 82);
+    height: 600px;
+}
+.foot_h{
+    color: #ffff;
+    margin-top: 200px;
+    margin-left: 50px;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+.foot_p{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.phone{
+    margin-left: 50px;
+    color: rgba(32, 202, 41, 0.849);
+}
+.ph_n{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 5px;
+    color: rgba(32, 202, 41, 0.849);
+}
+.mail{
+    
+    /* display: inline-block; */
+    margin-left: 50px;
+    
+    color: rgba(32, 202, 41, 0.849);
+}
+.e-mail{
+    color: rgba(32, 202, 41, 0.849);
+    margin-left: 5px;
+    display: inline-block;
+}
+.add_i{
+    /* margin-top: 5px; */
+    margin-left: 50px;
+    color: rgba(32, 202, 41, 0.849);
+}
+.add{
+    display: inline-block;
+    margin-left: 5px;
+    /* margin-top: 5px; */
+    color: rgba(32, 202, 41, 0.849);
+}
+
+
+.form{
+    margin-top: 150px;
+    border: none;
+}
+.form-control{
+    width: 400px;
+    color: rgba(32, 202, 41, 0.849) !important;
+    font-weight: 600;
+}
+
